@@ -150,7 +150,7 @@ function App() {
                 placeholder="House number"
               />
             </div>
-            <Button className={styles.primary} type="submit">Find</Button>
+            <Button variant={styles.primary} className={styles.primary} type="submit">Find</Button>
             {loading &&<div className={styles.formLoader}><Loading/></div>}
           </fieldset>
         </form>
@@ -188,7 +188,7 @@ function App() {
                   value={lastName}
                 />
               </div>
-              <Button className={styles.primary} type="submit">Add to addressbook</Button>
+              <Button variant={styles.primary} className={styles.primary} type="submit">Add to addressbook</Button>
             </fieldset>
           </form>
         )}
@@ -199,7 +199,7 @@ function App() {
         {error && <div className={styles.error}>{error}</div>}
 
         {/* TODO: Add a button to clear all form fields. Button must look different from the default primary button, see design. */}
-        <Button className={styles.secondary} onClick={handleClearField} >Clear all fields</Button>
+        <Button variant={styles.secondary} className={styles.secondary} onClick={handleClearField} >Clear all fields</Button>
         
       </Section>
 
