@@ -1,0 +1,36 @@
+.addressBook {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.remove {
+  --color-brand: var(--color-accent);
+  margin-left: auto;
+}
+
+.item {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.item address {
+  font-size: 0.85em;
+}
+
+.item h3 {
+  margin: 0 0 0.5em;
+}
+
+.primary{
+  background-color: rgb(17, 101, 228);
+  border: 1px solid rgb(17, 101, 228) ;
+}
+
+.secondary{
+  color:white;
+  border: 1px solid white;
+  background-color: transparent;
+  
+}

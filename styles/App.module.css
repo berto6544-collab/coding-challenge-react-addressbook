@@ -1,0 +1,44 @@
+
+
+.error {
+  color: red;
+  padding: 0.5em 0;
+}
+
+.primary{
+  background-color: rgb(17, 101, 228);
+  border: 1px solid rgb(17, 101, 228) ;
+}
+
+.secondary{
+  color:rgb(17, 101, 228);
+  border: 1px solid rgb(17, 101, 228);
+  background-color: transparent;
+  
+}
+
+
+.centertext{
+  text-align: center;
+}
+
+.formLoader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+
+.formRow {
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
