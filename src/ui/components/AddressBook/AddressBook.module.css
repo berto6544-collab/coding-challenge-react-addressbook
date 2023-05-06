@@ -15,6 +15,10 @@
   gap: 1rem;
 }
 
+.centertext{
+  text-align: center;
+}
+
 .item address {
   font-size: 0.85em;
 }

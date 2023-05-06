@@ -20,11 +20,11 @@ const AddressBook = () => {
 
   return (
     <section className={$.addressBook}>
-      <h2>📓 Address book ({addresses.length})</h2>
+      <h2 className={$.centertext}>📓 Address book ({addresses.length})</h2>
       
       {!loading && (
         <>
-          {addresses.length === 0 && <p>No addresses found, try add one 😉</p>}
+          {addresses.length === 0 && <p className={$.centertext}>No addresses found, try add one 😉</p>}
           {addresses.map((address) => {
             return (
               <Card key={address.id}>
